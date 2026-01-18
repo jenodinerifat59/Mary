@@ -1,0 +1,128 @@
+*{
+   padding: 0;
+   margin: 0; 
+   box-sizing:border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    gap:1rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nav-flex li{
+    font-size : 20px;
+    font-weight:300;
+    color: #474747;
+}
+.nav-flex li:hover{
+    color: #000000;
+    cursor: pointer;
+    font-weight: 500;
+}
+button{
+    cursor: pointer;
+    font-size : 20px;
+    font-weight: 700;
+    border-radius : 5px;
+}
+.nav-flex button{
+    color :rgb(254, 254, 254);
+    padding: 18.5px 36px;
+    background-color: #FD6E0A;
+    border: none;
+    margin-left: 51px;
+}
+
+/* ======================= */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.hero-text h1 span{
+    font-weight: 600;
+    font-size : 45px;
+    color :#474747;
+    margin-bottom: 5px;
+}
+.hero-text{
+    max-width : 585px;
+}
+.hero-text h1{
+    font-size : 85px;
+    font-weight: 750;
+    color :#000000;
+    margin-bottom: 20px;
+}
+.hero-text p{
+    font-size : 18px;
+    font-weight : 300;
+    color :#474747;
+    max-width : 559px;
+}
+.hero-buttons{
+    margin-top: 30px;
+}
+.hero-buttons1{
+    padding : 18px 17px;
+    border: none;
+    color : #ffffff;
+    background-color: #FD6E0A;
+    margin-right: 30px;
+}
+.hero-buttons2{
+    padding : 18px 24px;
+    border: 2px solid #FD6E0A;
+    color : #FD6E0A;
+    background-color: transparent;
+}
+
+i{
+    margin-right: 8px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.hero-image{
+    position: relative;
+    right: -30px;
+    width: 400px;
+    overflow-x:  hidden;
+}
+.hero-banner{
+    position: absolute;
+    width: 835px;
+    height: 518px;
+    bottom: 5px;
+    left: -150px;
+    z-index: -1;
+    transform: translateX(1000px);
+    
+}
