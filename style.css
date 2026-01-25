@@ -126,3 +126,50 @@ i{
     transform: translateX(1000px);
     
 }
+/* ===============About section================ */
+.about{
+    margin-top:130px;
+}
+.about article{
+    background-color:#FFF8F3;
+    padding-top:130px;
+    
+}
+.about article h2{
+    width:100%;
+    font-size:38px;
+    font-weight:700;
+    text-align:center;
+} 
+.about article .p1{
+    width:800px;
+    font-size:18px;
+    font-weight:300;
+    text-align:center;
+    margin: 0 auto;
+    margin-top:30px;
+} 
+.about article h6{
+    
+    font-size:20px;
+    font-weight:300;
+    text-align:center;
+    margin: 0 auto;
+} 
+.about article .p2{
+    
+    font-size:20px;
+    font-weight:700;
+    text-align:center;
+    margin: 0 auto;
+} 
+.about .about-flex{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:0 auto;
+    max-width:782px;
+    margin-top:30px;
+    padding-bottom:132px;
+}
+
