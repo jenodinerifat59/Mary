@@ -216,4 +216,42 @@ i{
         padding: 30px;
        box-shadow: 2px 3px 10px 5px rgba(0,0,0,0.75);
 }
+/* ======================="Resume"========== */
+.Resume h2{
+    margin-top:130px;
+    font-size:35px;
+    font-weight:700;
+     text-align: center;
+}
+.Resume h4{
+    margin-top:113px;
+    font-size:30px;
+    font-weight:700;
+}
+.Resume h5{
+    margin-top:10px;
+    font-size:20px;
+    font-weight:600;
+}
+.Resume p{
+    margin-top:10px;
+    font-size:16px;
+    font-weight:400;
+    line-height:20px;
+    padding-bottom:30px;
+    border-bottom:1px gray solid;
+}
+.Resume .flex{
+    display:flex;
+    justify-content:space-evenly;
+    gap:71px;
+}
+.btn{
+    display:block;
+    padding : 18px 17px;
+    border: none;
+    color : #ffffff;
+    background-color: #FD6E0A;
+    margin:50px auto;
 
+}
